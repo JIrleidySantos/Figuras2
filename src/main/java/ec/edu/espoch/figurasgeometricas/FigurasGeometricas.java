@@ -4,6 +4,9 @@
 
 package ec.edu.espoch.figurasgeometricas;
 
+import ec.edu.espoch.figurasgeometricas.clases.Circulo;
+import ec.edu.espoch.figurasgeometricas.clases.Cuadrado;
+
 
 
 
@@ -14,6 +17,7 @@ package ec.edu.espoch.figurasgeometricas;
 public class FigurasGeometricas {
 
     public static void main(String[] args) {
+        
         Circulo objCirculo = new Circulo(10.6);
 
         objCirculo.imprimir();
