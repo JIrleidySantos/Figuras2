@@ -28,7 +28,7 @@ public class FigurasGeometricas {
         double perimetro = objCirculo.calcularPerimetro();
         System.out.println("El perimetro del Circulo es " + perimetro);
 
-        Cuadrado objCuadrado = new Cuadrado(30.5);
+        Cuadrado objCuadrado = new Cuadrado(30.0);
 
         objCuadrado.imprimir();
 
