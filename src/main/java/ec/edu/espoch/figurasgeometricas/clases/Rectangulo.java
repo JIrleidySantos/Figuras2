@@ -33,6 +33,6 @@ public class Rectangulo {
     }
     public double calcularperimetro () {
     
-        return 2 * (baserec * alturarec);
+        return 2 * (baserec + alturarec);
     }
 }
